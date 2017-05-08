@@ -85,6 +85,19 @@ main {
   background-size: cover;
 }
 
+#heading {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.intro-txt {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+
+/* FOOTER */
+
 footer {
   width: 100%;
   position: fixed;
@@ -94,5 +107,16 @@ footer {
 
 #footer-txt {
   padding-top: 3%;
+}
 
+#phone-no {
+  text-align: right;
+}
+
+#email-enquiry {
+  text-align: right;
+}
+
+#certificate-logo {
+  float: left;
 }
