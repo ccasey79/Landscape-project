@@ -1,4 +1,10 @@
 
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9rem;
+}
+
+
 /* NAVBAR */
 
 nav {
@@ -9,7 +15,7 @@ nav {
 
 nav ul li {
   display: inline;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
 }
 
 nav ul li a {
@@ -26,7 +32,22 @@ nav ul li a {
 /* MAIN CONTENT */
 
 .wrapper {
-  width: 960px;
+  width: 1000px;
   margin: 0 auto;
-  background-color: #cccccc;
+  padding: 2%;
+}
+
+.sub-headings {
+  color: #629238;
+  font-size: 2rem;
+  /*font-family: 'Raleway', sans-serif;*/
+  padding-bottom: 1%;
+}
+
+#family-operated {
+  /*font-family: 'Raleway', sans-serif;*/
+  text-align:justify;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
