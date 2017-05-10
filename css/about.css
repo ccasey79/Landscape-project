@@ -12,9 +12,15 @@ nav {
   height: 15vh;
 }
 
+ul {
+  float: right;
+  margin-top: 2%;
+  width: 500px;
+}
+
 nav ul li {
   display: inline;
-  /*font-family: 'Raleway', sans-serif;*/
+  padding-left: 2%;
 }
 
 nav ul li a {
@@ -26,6 +32,16 @@ nav ul li a {
 
 #about-banner {
   opacity: 0.8;
+  position: relative;
+}
+
+.page-headings {
+  position: absolute;
+  color: #fff;
+  text-transform:uppercase;
+  font-size: 5rem;
+  margin-left: 15%;
+  margin-top: -11%;
 }
 
 /* MAIN CONTENT */
@@ -53,13 +69,19 @@ nav ul li a {
 
 #thank-customers {
   text-align: justify;
-  font-weight: 400;
   line-height: 30px;
+  font-weight: 400;
   float: left;
   width: 480px;
 }
 
 #family-pic {
   float: right;
-  padding-top: 3%;
+  padding-top: 1%;
+}
+
+#thankyou {
+  display: block;
+  clear: both;
+  content: "";
 }
