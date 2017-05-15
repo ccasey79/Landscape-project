@@ -67,3 +67,23 @@ span {
   margin: 0 auto;
   padding: 2%;
 }
+
+.contact-info {
+  margin: 0 auto;
+  width: 650px;
+  text-align: center;
+}
+
+.sub-headings {
+  color: #629238;
+  font-size: 2rem;
+  /*font-family: 'Raleway', sans-serif;*/
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
+
+.contact-details {
+  line-height: 36px;
+  font-weight: 400;
+  font-size: 2rem;
+}
