@@ -31,6 +31,10 @@ nav ul li a {
   font-size: 1.5rem;
 }
 
+a:hover {
+  color: #B5D994;
+}
+
 #leaf-logo {
   margin-left: 14%;
   margin-top: 1%;
@@ -115,4 +119,15 @@ input {
   display: block;
   clear: both;
   content: "";
+}
+
+button {
+  margin-top: 2%;
+  width: 150px;
+  border-radius: 5px;
+  padding: 2.5%;
+  font-size: 0.9rem;
+  background: #629238;
+  color: #fff;
+  text-transform: uppercase;
 }
