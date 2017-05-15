@@ -74,6 +74,14 @@ span {
   text-align: center;
 }
 
+#additional-heading {
+  font-size: 2rem;
+  color: #629238;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 6%;
+}
+
 .sub-headings {
   color: #629238;
   font-size: 2rem;
@@ -86,4 +94,25 @@ span {
   line-height: 36px;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.input-personal {
+  float: left;
+  width: 450px;
+}
+
+input {
+  width: 430px;
+  height: 35px;
+}
+
+.input-questions {
+  float: right;
+  width: 450px;
+}
+
+.user-contact-form {
+  display: block;
+  clear: both;
+  content: "";
 }
