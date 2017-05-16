@@ -1,6 +1,7 @@
 
 html {
   font-size: 16px;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-family: 'Raleway', sans-serif;
   color: #fff;
 }
 
@@ -19,7 +19,7 @@ body {
 .centered {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 57%;
   transform: translate(-50%,-50%);
   z-index: 2;
   max-width: 100%;
@@ -27,7 +27,7 @@ body {
 
 .shader {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
 
   position: absolute;
   background: -webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3));
@@ -52,14 +52,24 @@ nav {
 
 span {
   float: left;
+  margin-left: %;
+  margin-top: 2.7%;
+  font-size: 1.5rem;
+  font-family: sans-serif;
 }
 
 #leaf-logo {
   float: left;
+  margin-left: 5%;
+  margin-top: 1.5%;
+
 }
 
 ul {
   float: right;
+  width: 800px;
+  margin-top: 3%;
+  margin-right: 2%;
 }
 
 nav:after {
@@ -76,10 +86,12 @@ nav ul li a {
   text-decoration: none;
   color: #f2f2f2;
   font-size: 1.5rem;
+  padding-left: 90px;
+  font-family: sans-serif;
 }
 
-nav ul li a:hover {
-  color: #fff;
+a:hover {
+  color: #B5D994;
 }
 
 span {
@@ -102,11 +114,13 @@ main {
 #heading {
   font-size: 4rem;
   color: #fff;
+  font-family: sans-serif;
 }
 
 .intro-txt {
   color: #fff;
   font-size: 1.5rem;
+  font-family: sans-serif;
 }
 
 
@@ -119,18 +133,35 @@ footer {
   height: 15vh;
 }
 
+#contact {
+  margin-top: 2%;
+  margin-right: 6%;
+}
+
 #footer-txt {
-  padding-top: 3%;
+  margin-top: -2%;
+  margin-right: 15%;
+  font-family: sans-serif;
+  font-size: 1rem;
 }
 
 #phone-no {
   text-align: right;
+  margin-bottom: 1%;
+  margin-right: 4%;
+  font-family: sans-serif;
+  font-size: 1rem;
 }
 
 #email-enquiry {
   text-align: right;
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-right: 1%;
 }
 
 #certificate-logo {
   float: left;
+  margin-left: 5%;
+  margin-top: 0.8%;
 }
