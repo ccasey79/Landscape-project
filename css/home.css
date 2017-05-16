@@ -46,30 +46,44 @@ header {
 
 nav {
   float: right;
-  height: 50px;
-  line-height: 50px;
-  width: 700px;
+  height: 100px;
+  width: 1440px;
+}
+
+span {
+  float: left;
+}
+
+#leaf-logo {
+  float: left;
+}
+
+ul {
+  float: right;
+}
+
+nav:after {
+  display: block;
+  clear: both;
+  content: "";
 }
 
 nav ul li {
   display: inline-block;
-  margin: 5px;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 6%;
-}
-
-nav ul li:last-child {
-  margin-right: 20px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #f2f2f2;
+  font-size: 1.5rem;
 }
 
 nav ul li a:hover {
   color: #fff;
+}
+
+span {
+  float: left;
 }
 
 /* HOMEPAGE */
