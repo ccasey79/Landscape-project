@@ -13,6 +13,12 @@ nav {
   position: relative;
 }
 
+/*nav:after {
+  clear: both;
+  display: block;
+  content: "";
+}*/
+
 ul {
   float: right;
   margin-top: 3%;
@@ -105,8 +111,24 @@ span {
   padding-top: 1%;
 }
 
-#thankyou {
+#thankyou:after {
   display: block;
   clear: both;
   content: "";
+}
+
+/* FOOTER */
+
+.footer-info {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+#footer-company {
+  text-transform: uppercase;
 }
