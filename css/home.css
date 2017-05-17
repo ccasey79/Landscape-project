@@ -58,6 +58,11 @@ span {
   margin-left: -0.8%;
 }
 
+span a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
 #leaf-image {
   float: left;
   margin-left: 4.4%;
