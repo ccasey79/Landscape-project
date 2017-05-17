@@ -35,6 +35,8 @@ nav ul li a {
   text-decoration: none;
   color: #f2f2f2;
   font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 a:hover {
@@ -52,6 +54,7 @@ span {
   position: absolute;
   margin-top: 2.7%;
   margin-left: 0.6%;
+  font-family: 'Noto Serif', serif;
 }
 
 /* BANNER */
@@ -131,4 +134,21 @@ span {
 
 #footer-company {
   text-transform: uppercase;
+  font-family: 'Noto Serif', serif;
+  color: #629238;
+}
+
+#design-info {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.contact-details {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  line-height: 30px;
+}
+
+#email-info {
+  margin-left: -10%;
 }
