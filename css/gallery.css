@@ -71,6 +71,17 @@ span {
   padding: 2%;
 }
 
+.sub-headings {
+  color: #629238;
+  font-size: 2rem;
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
+
+#example {
+  margin-bottom: 2%;
+}
+
 /* FOOTER */
 
 .footer-info {
