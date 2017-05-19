@@ -78,13 +78,26 @@ span {
 hr {
     border-top: 1px solid #ccc;
     margin-top: 4%;
-    width: 1057px;
+    width: 987px;
 }
 
 .contact-info {
   margin: 0 auto;
   width: 650px;
   text-align: center;
+  position: relative;
+}
+
+#fountain-image {
+  position: absolute;
+  margin-top: -33%;
+  margin-left: -76%;
+}
+
+#fountain-image2 {
+  position: absolute;
+  margin-top: -33%;
+  margin-left: 50%;
 }
 
 #additional-heading {

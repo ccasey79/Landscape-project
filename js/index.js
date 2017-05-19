@@ -177,3 +177,8 @@ function imageScroll(c){
 	currentImageIndex = c;
 }
 
+/// Fade-in on index page
+
+$(document).ready(function() {
+	$('.centered').fadeIn(2000);
+});
