@@ -33,6 +33,10 @@ nav ul li a {
   font-weight: 500;
 }
 
+a:hover {
+  color: #B5D994;
+}
+
 #leaf-logo {
   margin-left: 14%;
   margin-top: 1%;
