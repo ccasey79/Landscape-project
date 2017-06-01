@@ -82,62 +82,6 @@ header {
   opacity: 0.5;
 }
 
-
-/*nav {
-  float: right;
-  height: 100px;
-  width: 1440px;
-}
-
-span {
-  float: left;
-  font-size: 1.5rem;
-  font-family: 'Noto Serif', serif;
-  margin-top: 3%;
-  margin-left: -0.8%;
-}
-
-span a {
-  text-decoration: none;
-  color: #f2f2f2;
-}
-
-#leaf-image {
-  float: left;
-  margin-left: 4.4%;
-  margin-top: 1.7%;
-}
-
-ul {
-  float: right;
-  width: 800px;
-  margin-top: 3.5%;
-  margin-right: 4%;
-}
-
-nav:after {
-  display: block;
-  clear: both;
-  content: "";
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #f2f2f2;
-  font-size: 1.5rem;
-  padding-left: 90px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-}
-
-a:hover {
-  color: #B5D994;
-}*/
-
 /* HOMEPAGE */
 
 main {
