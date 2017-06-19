@@ -119,10 +119,26 @@ main {
   height: 15vh;
 }
 
+.bottomPage-banner:after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
+/* Expansion of page */
 
+section {
+  background-color: blue;
+  width: 100%;
+}
 
+.column1 {
+  width: 40%;
+}
 
+.column2 {
+
+}
 
 
 
