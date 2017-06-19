@@ -111,49 +111,26 @@ main {
 }
 
 
-/* FOOTER */
+/* Bottom page banner */
 
-footer {
+.bottomPage-banner {
   width: 100%;
-  position: fixed;
   background: #629238;
   height: 15vh;
 }
 
-#contact {
-  margin-top: 2%;
-  margin-right: 6%;
-}
 
-#footer-txt {
-  margin-top: -2%;
-  margin-right: 15%;
-  font-family: sans-serif;
-  font-size: 1rem;
-}
 
-#phone-no {
-  text-align: right;
-  margin-bottom: 1%;
-  margin-right: 4.3%;
-  font-family: sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-}
 
-#email-enquiry {
-  text-align: right;
-  font-family: sans-serif;
-  font-size: 1rem;
-  margin-right: 1%;
-  font-weight: 700;
-}
 
-#Bali-logo {
-  float: left;
-  margin-left: 6%;
-  margin-top: 1%;
-}
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERIES */
 
