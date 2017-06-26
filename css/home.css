@@ -128,16 +128,26 @@ main {
 /* Expansion of page */
 
 section {
-  background-color: blue;
+  background-color: #264d00;
   width: 100%;
 }
 
 .column1 {
   width: 40%;
+  float: left;
+  color: black;
 }
 
 .column2 {
+  width: 60%;
+  float: right;
+  color: black;
+}
 
+section:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* FOOTER */
