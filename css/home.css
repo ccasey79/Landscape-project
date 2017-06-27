@@ -132,14 +132,14 @@ section {
 }
 
 .column1 {
-  width: 40%;
+  width: 48%;
   float: left;
   color: #629238;
   font-family: sans-serif;
 }
 
 .column2 {
-  width: 60%;
+  width: 48%;
   float: right;
   color: #629238;
   font-family: sans-serif;
@@ -153,11 +153,22 @@ section:after {
 
 .sub-heading {
   font-size: 2rem;
-  padding: 2%;
+}
+
+#services {
+  text-align: left;
+}
+
+#landscapes {
+  text-align: left;
+}
+
+.todoList {
+  text-align: left;
 }
 
 img {
-  margin: 3%;
+ margin: 2%;
 }
 
 button {
