@@ -130,6 +130,7 @@ main {
 section {
   background-color: #264d00;
   width: 100%;
+  padding: 20px;
 }
 
 .column1 {
@@ -148,6 +149,11 @@ section:after {
   content: "";
   display: block;
   clear: both;
+}
+
+.sub-heading {
+  font-size: 30px;
+
 }
 
 /* FOOTER */
