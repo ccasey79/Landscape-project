@@ -128,21 +128,21 @@ main {
 /* Expansion of page */
 
 section {
-  background-color: #264d00;
   width: 100%;
-  padding: 20px;
 }
 
 .column1 {
   width: 40%;
   float: left;
-  color: black;
+  color: #629238;
+  font-family: sans-serif;
 }
 
 .column2 {
   width: 60%;
   float: right;
-  color: black;
+  color: #629238;
+  font-family: sans-serif;
 }
 
 section:after {
@@ -152,8 +152,19 @@ section:after {
 }
 
 .sub-heading {
-  font-size: 30px;
+  font-size: 2rem;
+  padding: 2%;
+}
 
+img {
+  margin: 3%;
+}
+
+button {
+  width: 150px;
+  height: 60px;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 /* FOOTER */
