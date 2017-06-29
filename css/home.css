@@ -154,25 +154,29 @@ section:after {
 #services {
   text-align: left;
   font-size: 5rem;
-  margin-top: 6%;
+  margin-top: 12%;
   margin-left: 10%;
 }
 
 #landscapes {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.7rem;
+  margin-top: 37%;
+  margin-left: 8%;
 }
 
 #list1 {
   text-align: center;
-  margin-left: 23%;
-  line-height: 35px;
+  line-height: 40px;
+  margin-top: 6%;
+  font-size: 2rem;
 }
 
 #list2 {
   text-align: center;
-  line-height: 35px;
+  line-height: 40px;
   margin-right: 21%;
+  font-size: 2rem;
 }
 
 #flower {
@@ -180,7 +184,30 @@ section:after {
   margin-right: 10%;
 }
 
-button {
+#rockerie {
+  margin-top: 14%;
+  margin-right: 10%;
+}
+
+#water-feature {
+
+}
+
+#contact1 {
+  width: 270px;
+  height: 85px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-right: 15%;
+  margin-top: 6%;
+  border: 2px solid #629238;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #629238;
+  background-color: #ffffff;
+}
+
+#contact2 {
   width: 150px;
   height: 60px;
   font-family: sans-serif;
@@ -189,6 +216,7 @@ button {
 
 blockquote {
   font-size: 2rem;
+  margin-top: 35%;
 }
 
 /* FOOTER */
