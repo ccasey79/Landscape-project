@@ -98,11 +98,15 @@ hr {
 
 #fountain-image {
   float: left;
+  max-width: 100%;
+  height: auto;
 }
 
 #fountain-image2 {
   float: right;
   margin-top: -21%;
+  max-width: 100%;
+  height: auto;
 }
 
 #additional-heading {
