@@ -151,24 +151,33 @@ section:after {
   clear: both;
 }
 
-.sub-heading {
-  font-size: 2rem;
-}
-
 #services {
   text-align: left;
+  font-size: 5rem;
+  margin-top: 6%;
+  margin-left: 10%;
 }
 
 #landscapes {
   text-align: center;
+  font-size: 2rem;
 }
 
-.todoList {
-  text-align: left;
+#list1 {
+  text-align: center;
+  margin-left: 23%;
+  line-height: 35px;
 }
 
-img {
- margin: 2%;
+#list2 {
+  text-align: center;
+  line-height: 35px;
+  margin-right: 21%;
+}
+
+#flower {
+  margin-top: 6%;
+  margin-right: 10%;
 }
 
 button {
