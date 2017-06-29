@@ -160,7 +160,7 @@ section:after {
 }
 
 #landscapes {
-  text-align: left;
+  text-align: center;
 }
 
 .todoList {
@@ -176,6 +176,10 @@ button {
   height: 60px;
   font-family: sans-serif;
   text-transform: uppercase;
+}
+
+blockquote {
+  font-size: 2rem;
 }
 
 /* FOOTER */
