@@ -155,7 +155,7 @@ section:after {
   text-align: left;
   font-size: 5rem;
   margin-top: 6%;
-  margin-left: 10%;
+  margin-left: 16%;
 }
 
 #landscapes {
@@ -168,14 +168,14 @@ section:after {
 #list1 {
   text-align: center;
   line-height: 40px;
-  margin-top: 11%;
+  margin-top: 6%;
   font-size: 2rem;
 }
 
 #list2 {
   text-align: center;
   line-height: 40px;
-  margin-right: 21%;
+  margin-right: 7%;
   font-size: 2rem;
 }
 
@@ -192,7 +192,7 @@ section:after {
 }
 
 #worker {
-  margin-top: 10%;
+  margin-top: 21%;
   max-width: 100%;
   height: auto;
 }
@@ -202,7 +202,6 @@ section:after {
   height: 85px;
   font-family: sans-serif;
   text-transform: uppercase;
-  margin-right: 15%;
   margin-top: 3%;
   border: 2px solid #629238;
   font-size: 1.5rem;
@@ -220,13 +219,14 @@ section:after {
 
 blockquote {
   font-size: 1.7rem;
-  margin-top: 74%;
+  margin-top: 87%;
   margin-left: 7%;
 }
 
 #covered-areas {
   font-size: 1.5rem;
   font-family: sans-serif;
+  margin-bottom: 13%;
 }
 
 /* FOOTER */
