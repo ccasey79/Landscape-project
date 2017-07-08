@@ -162,12 +162,12 @@ section:after {
   text-align: center;
   font-size: 2.7rem;
   margin-top: 8%;
-  margin-left: 8%;
+  margin-left: 1%;
 }
 
 #list1 {
   text-align: center;
-  line-height: 40px;
+  line-height: 43px;
   margin-top: 6%;
   font-size: 2rem;
 }
@@ -176,7 +176,7 @@ section:after {
   text-align: center;
   line-height: 40px;
   margin-right: 7%;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #decking {
@@ -219,7 +219,7 @@ section:after {
 
 blockquote {
   font-size: 1.7rem;
-  margin-top: 87%;
+  margin-top: 46%;
   margin-left: 7%;
 }
 
