@@ -18,9 +18,11 @@ jQuery(document).ready(function() {
 				/* basic navigation arrows and bullets */
 				navigation: {
 
+						onHoverStop: 'on',
+
 						arrows: {
 								enable: true,
-								style: 'hesperiden',
+								style: 'gyges',
 								hide_onleave: false
 						},
 
