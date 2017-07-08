@@ -5,6 +5,8 @@ jQuery(document).ready(function() {
 		/* initialize the slider based on the Slider's ID attribute */
 		jQuery('#rev_slider_1').show().revolution({
 
+				delay: 3000,
+
 				/* options are 'auto', 'fullwidth' or 'fullscreen' */
 				sliderLayout: 'fullscreen',
 
@@ -27,7 +29,7 @@ jQuery(document).ready(function() {
 						},
 
 						bullets: {
-								enable: true,
+								enable: false,
 								style: 'hesperiden',
 								hide_onleave: false,
 								h_align: 'center',
