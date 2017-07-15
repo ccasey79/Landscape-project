@@ -181,6 +181,15 @@ function imageScroll(c){
 
 $(document).ready(function() {
 	$('.centered').fadeIn(2000);
+
+	var allQuotes = $('blockquote');
+	var currentQuote = 0;
+
+	function changeQuote() {
+
+
+		
+	}
 });
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -191,4 +200,4 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
-} 
+}
