@@ -163,14 +163,14 @@ section:after {
 #landscapes {
   text-align: center;
   font-size: 4rem;
-  margin-top: 15%;
+  margin-top: 11%;
   margin-left: 12%;
 }
 
 #list1 {
   text-align: center;
-  line-height: 43px;
-  margin-top: 10%;
+  line-height: 48px;
+  margin-top: 13%;
   font-size: 2rem;
 }
 
@@ -196,7 +196,8 @@ section:after {
 }
 
 #worker {
-  margin-top: 18%;
+  position: relative;
+  margin-top: 15%;
   max-width: 100%;
   height: auto;
   margin-right: 10%;
@@ -208,6 +209,7 @@ section:after {
   font-family: sans-serif;
   text-transform: uppercase;
   margin-top: 13%;
+  margin-right: 10%;
   border: 2px solid #629238;
   font-size: 1.5rem;
   font-weight: 700;
@@ -224,7 +226,7 @@ section:after {
 
 blockquote {
   font-size: 2rem;
-  margin-top: 40%;
+  margin-top: 32%;
   margin-left: 21%;
   display: none;
   font-style: italic;
@@ -237,14 +239,28 @@ blockquote:first-of-type {
 
 #quote-end {
   position: absolute;
-  top: 256%;
+  top: 275%;
   left: 5%;
 }
 
-#covered-areas {
-  font-size: 1.5rem;
-  font-family: sans-serif;
-  margin-bottom: 13%;
+#covered-opacity {
+  position: absolute;
+  background-color: #629238;
+  width: 550px;
+  height: 90px;
+  margin-left: 2.5%;
+  margin-top: -6.5%;
+  opacity: 0.4;
+}
+
+#covered-txt {
+  font-size: 2.3rem;
+  color: #629238;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: -4.5%;
+  font-weight: 700;
+  text-shadow: 3px 3px 1px #000;
 }
 
 /* FOOTER */
