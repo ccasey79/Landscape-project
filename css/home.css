@@ -218,9 +218,16 @@ section:after {
 }
 
 blockquote {
-  font-size: 1.7rem;
-  margin-top: 46%;
-  margin-left: 7%;
+  font-size: 2rem;
+  margin-top: 40%;
+  margin-left: 21%;
+  display: none;
+  font-style: italic;
+  font-family: 'Noto Serif', serif;
+}
+
+blockquote:first-of-type {
+  display: block;
 }
 
 #covered-areas {
