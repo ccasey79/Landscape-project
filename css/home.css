@@ -110,6 +110,25 @@ main {
   line-height: 30px;
 }
 
+#phone-no {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 3%;
+  margin-right: 70%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#email-head {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  position: absolute;
+  margin-left: 63%;
+  margin-top: -1.7%;
+  text-shadow: 1px 1px 1px #000;
+
+}
 
 /* Bottom page banner */
 
@@ -117,6 +136,7 @@ main {
   width: 100%;
   background: #629238;
   height: 15vh;
+  position: relative;
 }
 
 .bottomPage-banner:after {
@@ -158,6 +178,7 @@ section:after {
   margin-top: 12%;
   margin-left: 11%;
   margin-bottom: 7%;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 #landscapes {
@@ -165,6 +186,7 @@ section:after {
   font-size: 4rem;
   margin-top: 11%;
   margin-left: 12%;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 #list1 {
