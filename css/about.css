@@ -17,7 +17,7 @@ header {
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
-    background-color: #629238; 
+    background-color: #629238;
 }
 
 /* Style the links inside the navigation bar */
@@ -78,27 +78,30 @@ header {
 }
 
 hr {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #629238;
 }
 
 .sub-headings {
   color: #629238;
-  font-size: 2rem;
+  font-size: 2.5rem;
   /*font-family: 'Raleway', sans-serif;*/
   padding-bottom: 1%;
   padding-top: 3%;
 }
 
 #family-operated {
-  /*font-family: 'Raleway', sans-serif;*/
+  font-family: times;
   text-align:justify;
   line-height: 30px;
   font-weight: 400;
+  font-size: 1.2rem;
 }
 
 #offer-list {
   float:none;
   width: 100%;
+  font-family: times;
+  font-size: 1.2rem;
 }
 
 #thank-customers {
@@ -107,6 +110,8 @@ hr {
   font-weight: 400;
   float: left;
   width: 480px;
+  font-family: times;
+  font-size: 1.2rem;
 }
 
 #family-pic {
