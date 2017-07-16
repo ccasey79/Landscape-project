@@ -114,9 +114,10 @@ hr {
   font-size: 1.2rem;
 }
 
-#family-pic {
+#gardeners {
   float: right;
   padding-top: 1%;
+  max-width: 100%;
 }
 
 #thankyou:after {
@@ -183,5 +184,146 @@ hr {
     float: none;
     display: block;
     text-align: left;
+  }
+}
+
+
+/* RESPONSIVE LAYOUT */
+
+@media screen and (max-width: 1140px) {
+  .sub-headings {
+    font-size: 2.3rem;
+  }
+  #family-operated {
+    line-height: 26px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1038px) {
+    #family-operated {
+      width: 900px;
+    }
+    .page-headings {
+      margin-top: -14%;
+    }
+    #offer-list {
+      font-size: 1rem;
+    }
+    #thank-customers {
+      font-size: 1rem;
+      width: 900px;
+    }
+    #gardeners {
+      float: none;
+      margin-top: 2%;
+      margin-left: 31%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+  hr {
+    display: none;
+  }
+  #family-operated {
+    width: 840px;
+  }
+  #thank-customers {
+    width: 840px;
+  }
+  #gardeners {
+    margin-left: 26%;
+  }
+  .page-headings {
+    margin-top: -16%;
+  }
+}
+
+@media screen and (max-width: 872px) {
+  #gardeners {
+    margin-left: 23%;
+  }
+  #family-operated {
+    width: 768px;
+  }
+  #thank-customers {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  #family-operated {
+    width: 650px;
+  }
+  #thank-customers {
+    width: 650px;
+  }
+  #gardeners {
+    margin-left: 20%;
+  }
+  .sub-headings {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  #family-operated {
+    width: 520px;
+  }
+  #thank-customers {
+    width: 520px;
+  }
+  #offer-clients {
+    width: 520px;
+  }
+  .page-headings {
+    margin-top: -20%;
+  }
+  #leaf-image {
+    margin-top: 0%;
+    margin-right: 14%;
+  }
+  .topnav.responsive a {
+    text-align: center;
+    padding: 15px;
+  }
+  #gardeners {
+    margin-left: 14%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #family-operated {
+    width: 454px;
+  }
+  #thank-customers {
+    width: 454px;
+  }
+  #offer-clients {
+    width: 422px;
+  }
+  #gardeners {
+    display: none;
+  }
+  .page-headings {
+    margin-top: -22%;
+  }
+  .sub-headings {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-headings {
+    margin-top: -25%;
+  }
+  #family-operated {
+    line-height: 22px;
+  }
+  #thank-customers {
+    line-height: 22px
+  }
+  #offer-clients {
+    line-height: 22px;
   }
 }
