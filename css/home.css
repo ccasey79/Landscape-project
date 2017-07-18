@@ -376,6 +376,25 @@ blockquote:first-of-type {
   }
 }
 
+/* IPAD PORTRAIT */
+
+@media screen and (max-width: 768px) {
+  .centered {
+    top: 53%;
+  }
+  #phone-no {
+    padding-top: 55px;
+  }
+  .topnav {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
 @media screen and (max-width: 980px) {
   #phone-no {
     margin-right: 0%;
@@ -394,9 +413,6 @@ blockquote:first-of-type {
   .intro-txt {
     font-size: 1.2rem;
     line-height: 26px;
-  }
-  .centered {
-    top: 56%;
   }
   #phone-no {
     font-size: 1.3rem;
@@ -438,5 +454,54 @@ blockquote:first-of-type {
   }
   #email-head {
     font-size: 1rem;
+  }
+}
+
+/* IPHONE 6 */
+
+@media screen and (max-width: 375px) {
+  .intro-txt {
+    font-size: 0.9rem;
+  }
+  #heading {
+    font-size: 2.1rem;
+  }
+  .topnav {
+    margin-right: 15px;
+  }
+}
+
+/* GALAXY S7 */
+
+@media screen and (max-width: 360px) {
+  .intro-txt {
+    line-height: 17px;
+  }
+  #heading {
+    font-size: 1.8rem;
+  }
+  .topnav {
+    margin-right: 15px;
+  }
+}
+
+/* IPHONE 4 & 5 */
+
+@media screen and (max-width: 320px) {
+  #heading {
+    font-size: 1.5rem;
+  }
+  .intro-txt {
+    font-size: 0.8rem;
+  }
+  #phone-no {
+    padding-top: 23px;
+    font-size: 0.8rem;
+  }
+  #email-head {
+    font-size: 0.8rem;
+  }
+  .topnav.responsive a {
+    padding: 5px;
   }
 }
