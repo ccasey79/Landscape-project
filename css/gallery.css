@@ -160,9 +160,40 @@ header {
   }
 }
 
+/* IPAD LANDSCAPE */
+@media screen and (max-width: 1024px) {
+  .page-headings {
+    margin-left: 8%;
+  }
+  .topnav a {
+    margin-left: 4%;
+    padding-top: 4%;
+  }
+}
+
 @media screen and (max-width: 840px) {
   .page-headings {
     margin-top: -16%;
+  }
+}
+
+/* IPAD PORTRAIT */
+
+@media screen and (max-width: 768px) {
+  .page-headings {
+    margin-left: 10%;
+  }
+  .topnav a {
+    padding-top: 5%;
+  }
+  .sub-headings {
+    font-size: 1.5rem;
+  }
+  .footer-info {
+    margin-top: -3%;
+  }
+  .forcefullwidth_wrapper_tp_banner {
+    margin-top: -56px;
   }
 }
 
@@ -198,5 +229,52 @@ header {
   }
   .sub-headings {
     font-size: 1.2rem;
+  }
+}
+
+/* IPhone 7 */
+
+@media screen and (max-width: 375px) {
+  .page-headings {
+    margin-top: -30%;
+    font-size: 4.2rem;
+    margin-left: 15%;
+  }
+  .footer-info {
+    margin-left: 16%;
+  }
+  .topnav.responsive {
+    padding-right: 2%;
+  }
+  .topnav.responsive a {
+    padding: 12px;
+  }
+}
+
+/* Galaxy S7 */
+
+@media screen and (max-width: 360px) {
+  .page-headings {
+    font-size: 3.5rem;
+  }
+  .sub-headings {
+    font-size: 1rem;
+  }
+  .footer-info {
+    margin-left: 14%;
+  }
+}
+
+/* IPhone 4 and 5 */
+
+@media screen and (max-width: 360px) {
+  .contact-details {
+    font-size: 1.3rem;
+  }
+  .footer-info {
+    margin-left: 10%;
+  }
+  #email-info {
+    margin-left: -1%;
   }
 }

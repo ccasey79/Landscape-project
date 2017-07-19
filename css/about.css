@@ -231,21 +231,13 @@ hr {
     padding-top: 4%;
   }
   .sub-headings {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   #family-operated {
-    width: 716px;
-    line-height: 23px;
+    width: 978px;
   }
   #thank-customers {
-    width: 716px;
-    line-height: 23px;
-  }
-  #gardeners {
-    margin-left: 19%;
-  }
-  .footer-info {
-    margin-left: 27%;
+    width: 978px;
   }
 }
 
@@ -393,5 +385,49 @@ hr {
   }
   .topnav.responsive a {
     padding: 12px;
+  }
+}
+
+/* Galaxy S6 and S7 */
+
+@media screen and (max-width: 360px) {
+  #family-operated {
+    width: 344px;
+  }
+  #thank-customers {
+    width: 344px;
+  }
+  .footer-info {
+    margin-left: 15%;
+  }
+}
+
+/* IPhone 4 and 5 */
+
+@media screen and (max-width: 320px) {
+  .page-headings {
+    margin-top: -32%;
+    font-size: 3.7rem;
+  }
+  .sub-headings {
+    font-size: 1.1rem;
+  }
+  #family-operated {
+    width: 302px;
+  }
+  #thank-customers {
+    width: 302px;
+  }
+  #offer-list {
+    width: 269px;
+  }
+  #email-info {
+    margin-left: -1%;
+  }
+  .footer-info {
+    margin-left: 10%;
+  }
+  .contact-details {
+    font-size: 1.3rem;
   }
 }

@@ -257,3 +257,29 @@ textarea {
     text-align: left;
   }
 }
+
+/* RESPONSIVE LAYOUT */
+
+/* IPAD LANDSCAPE */
+
+@media screen and (max-width: 1024px) {
+  .page-headings {
+    margin-left: 8%;
+    margin-top: -14%;
+  }
+  .topnav a {
+    padding-top: 4%;
+  }
+  #contact-container {
+    width: 980px;
+  }
+  .user-contact-form {
+    width: 960px;
+  }
+  input {
+    border: 1px solid #000;
+  }
+  textarea {
+    border: 1px solid #000;
+  }
+}
