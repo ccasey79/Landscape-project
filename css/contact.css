@@ -276,10 +276,186 @@ textarea {
   .user-contact-form {
     width: 960px;
   }
-  input {
-    border: 1px solid #000;
+  #additional-heading {
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
-  textarea {
-    border: 1px solid #000;
+  #questions {
+    border: 1px solid #629238;
+  }
+  .user-info {
+    border: 1px solid #629238;
+  }
+}
+
+/* IPAD PORTRAIT */
+
+@media screen and (max-width: 768px) {
+  .topnav a {
+    padding-top: 5%;
+  }
+  .page-headings {
+    margin-top: -17%;
+  }
+  #contact-container {
+    width: 734px;
+  }
+  #contact-details {
+    font-size: 1.2rem;
+    margin-right: 21%;
+  }
+  #fountain-image2 {
+    margin-top: -29%;
+  }
+  .input-personal {
+    float: none;
+  }
+  .input-questions {
+    float: none;
+  }
+  #additional-heading {
+    margin-right: 26%;
+  }
+  .user-info {
+    width: 530px;
+    margin-left: 22%;
+  }
+  .sub-headings {
+    margin-left: 22%;
+  }
+  #questions {
+    margin-left: 22%;
+  }
+  button {
+    margin-left: 22%;
+  }
+  .footer-info {
+    margin-top: -3%;
+  }
+}
+
+/* IPHONE 7 */
+
+@media screen and (max-width: 375px) {
+  .page-headings {
+    margin-top: -33%;
+    font-size: 4rem;
+    margin-left: 14%;
+  }
+  .topnav.responsive a {
+    text-align: center;
+    padding: 12px;
+  }
+  #leaf-image {
+    margin-top: 0%;
+    margin-right: 14%;
+  }
+  #fountain-image {
+    float: none;
+    margin-left: 12%;
+    margin-top: 2%;
+  }
+  #contact-details {
+    text-align: center;
+    line-height: 28px;
+    margin-right: 52%;
+    margin-top: 2%;
+  }
+  #fountain-image2 {
+    float: none;
+    margin-left: 12%;
+    margin-top: 2%;
+  }
+  hr {
+    display: none;
+  }
+  #additional-heading {
+    font-size: 1.7rem;
+    margin-right: 64%;
+  }
+  .user-info {
+    width: 254px;
+    margin-left: 2%;
+  }
+  input[type=text] {
+    padding-left: 20%;
+  }
+  #questions {
+    width: 335px;
+    margin-left: 2%;
+  }
+  .sub-headings {
+    padding-bottom: 0%;
+  }
+  .footer-info {
+    margin-top: 7%;
+  }
+  .contact-details {
+    font-size: 1.3rem;
+  }
+  #email-info {
+    margin-left: -1%;
+  }
+  #phone-info {
+    border: 1px solid #629238;
+    width: 334px;
+    margin-left: 2%;
+  }
+}
+
+/* GALAXY S6 and S7 */
+
+@media screen and (max-width: 360px) {
+  #questions {
+    width: 323px;
+  }
+  .user-info {
+    width: 240px;
+    margin-left: 2%;
+  }
+  #phone-info {
+    width: 320px;
+  }
+}
+
+/* IPHONE 4 and 5 */
+
+@media screen and (max-width: 320px) {
+  .page-headings {
+    font-size: 3.4rem;
+    margin-top: -33%;
+    }
+    .sub-headings {
+      font-size: 1.1rem;
+    }
+    #fountain-image {
+      margin-left: 10%;
+    }
+    #fountain-image2 {
+      margin-left: 10%;
+    }
+    #contact-details {
+      margin-right: 57%;
+      line-height: 25px;
+    }
+    #additional-heading {
+      font-size: 1.5rem;
+      margin-right: 69%;
+    }
+    .user-info {
+      width: 227px;
+    }
+    #phone-info {
+      width: 281px;
+    }
+    #questions {
+      width: 287px;
+    }
+    input[type=text] {
+      padding-left: 14%;
+    }
+    button {
+      margin-left: 17%;
+    }
   }
 }
