@@ -221,6 +221,34 @@ hr {
     }
 }
 
+/* IPAD lANDSCAPE */
+
+@media screen and (max-width: 1024px) {
+  .page-headings {
+    margin-left: 8%;
+  }
+  .topnav a {
+    padding-top: 4%;
+  }
+  .sub-headings {
+    font-size: 2rem;
+  }
+  #family-operated {
+    width: 716px;
+    line-height: 23px;
+  }
+  #thank-customers {
+    width: 716px;
+    line-height: 23px;
+  }
+  #gardeners {
+    margin-left: 19%;
+  }
+  .footer-info {
+    margin-left: 27%;
+  }
+}
+
 @media screen and (max-width: 940px) {
   hr {
     display: none;
@@ -251,18 +279,27 @@ hr {
   }
 }
 
-@media screen and (max-width: 794px) {
-  #family-operated {
-    width: 650px;
-  }
-  #thank-customers {
-    width: 650px;
-  }
-  #gardeners {
-    margin-left: 20%;
+/* IPAD PORTRAIT */
+
+@media screen and (max-width: 768px) {
+  .page-headings {
+    margin-left: 10%;
   }
   .sub-headings {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-top: -2%;
+  }
+  #family-operated {
+    width: 710px;
+  }
+  #thank-customers {
+    width: 710px;
+  }
+  #gardeners {
+    margin-left: 17%;
+  }
+  .footer-info {
+    margin-left: 33%;
   }
 }
 
@@ -325,5 +362,36 @@ hr {
   }
   #offer-clients {
     line-height: 22px;
+  }
+}
+
+/* Iphone 7 */
+
+@media screen and (max-width: 375px) {
+  .page-headings {
+    margin-top: -30%;
+    font-size: 4.2rem;
+    margin-left: 15%;
+  }
+  .sub-headings {
+    font-size: 1.3rem;
+  }
+  #family-operated {
+    width: 354px;
+  }
+  #thank-customers {
+    width: 354px;
+  }
+  #offer-list {
+    width: 319px;
+  }
+  .footer-info {
+    margin-left: 16%;
+  }
+  .topnav.responsive {
+    padding-right: 2%;
+  }
+  .topnav.responsive a {
+    padding: 12px;
   }
 }
