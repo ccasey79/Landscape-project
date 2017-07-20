@@ -551,3 +551,135 @@ blockquote:first-of-type {
     margin-top: -5.5%;
   }
 }
+
+/* IPAD PORTRAIT */
+
+@media screen and (max-width: 768px) {
+  #services {
+    font-size: 3rem;
+    margin-left: -1%;
+  }
+  #decking {
+    max-width: 90%;
+  }
+  #landscapes {
+    font-size: 3rem;
+    margin-top: 9%;
+  }
+  #list2 {
+    line-height: 34px;
+    font-size: 1.3rem;
+    margin-right: 11%;
+  }
+  #contact1 {
+    font-size: 1.1rem;
+    padding: 15px;
+    margin-right: 0%;
+  }
+  #list1 {
+    line-height: 34px;
+    font-size: 1.3rem;
+    margin-top: 7%;
+  }
+  #rockerie {
+    margin-right: 5%;
+  }
+  #worker {
+    margin-right: 5%;
+    margin-top: 29%;
+  }
+  blockquote {
+    font-size: 1.2rem;
+    margin-top: 16%;
+  }
+  #covered-opacity {
+    margin-left: 1.4%;
+    width: 331px;
+    height: 52px;
+    margin-top: -7%;
+  }
+  #covered-txt {
+    font-size: 1.3rem;
+    margin-left: 3%;
+  }
+}
+
+/* IPHONE 7 */
+
+@media screen and (max-width: 375px) {
+  .column1 {
+    float: none;
+  }
+  .column2 {
+    float: none;
+  }
+  #decking {
+    max-width: 150%;
+    margin-left: 28%;
+  }
+  #landscapes {
+    font-size: 2rem;
+    margin-top: 9%;
+    margin-left: 34%;
+    width: 250px;
+  }
+  #list1 {
+    line-height: 31px;
+    margin-top: 14%;
+    width: 294px;
+  }
+  blockquote {
+    font-size: 1.3rem;
+    margin-top: 16%;
+    width: 294px;
+  }
+  #covered-txt {
+    display: none;
+  }
+  #covered-opacity {
+    display: none;
+  }
+  #services {
+    font-size: 2rem;
+    width: 200px;
+    margin-left: 47%;
+    margin-top: 18%;
+  }
+  #list2 {
+    line-height: 31px;
+    width: 294px;
+    margin-top: 12%;
+    margin-bottom: 17%;
+  }
+  #contact1 {
+    font-size: 0.8rem;
+    padding: 13px;
+    margin-right: -106%;
+  }
+  #rockerie {
+    max-width: 150%;
+    margin-top: 30%;
+    margin-left: 28%;
+  }
+  #worker {
+    max-width: 150%;
+    margin-left: 28%;
+  }
+  .contact-details {
+    font-size: 1.3rem;
+  }
+  #email-info {
+    margin-left: -9%;
+  }
+}
+
+/* GALAXY S6 AND S7 */
+
+@media screen and (max-width: 360px) {
+  blockquote {
+    width: 288px;
+  }
+  #list2 {
+    width: 287px;
+  }
+}
