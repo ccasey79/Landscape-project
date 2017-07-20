@@ -683,3 +683,37 @@ blockquote:first-of-type {
     width: 287px;
   }
 }
+
+/* IPHONE 4 AND 5 */
+
+@media screen and (max-width: 320px) {
+  #landscapes {
+    font-size: 1.5rem;
+    margin-top: 13%;
+    margin-left: 22%;
+  }
+  #list1 {
+    width: 231px;
+    font-size: 1rem;
+  }
+  blockquote {
+    width: 246px;
+  }
+  #services {
+    font-size: 1.5rem;
+    margin-left: 36%;
+    margin-top: 26%;
+  }
+  #list2 {
+    line-height: 28px;
+    width: 236px;
+    font-size: 1rem;
+    margin-bottom: 25%;
+  }
+  .contact-details {
+    font-size: 1rem;
+  }
+  #email-info {
+    margin-left: -2%; 
+  }
+}
