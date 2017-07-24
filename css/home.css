@@ -270,6 +270,7 @@ section:after {
 .btn-1c:hover,
 .btn-1c:active {
 	color: #629238;
+  box-shadow: 5px 5px 5px #629238;
 }
 
 .btn-1c:hover:after,
