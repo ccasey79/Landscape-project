@@ -228,14 +228,14 @@ section:after {
 /* General button style (reset) */
 .btn {
 	border: 2px solid #629238;
-	font-family: inherit;
+	font-family: sans-serif;
 	font-size: inherit;
-	color: inherit;
+  font-weight: 700;
+	color: #629238;
 	background: none;
 	cursor: pointer;
-	padding: 25px 80px;
+	padding: 22px 38px;
 	display: inline-block;
-	margin: 15px 30px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -244,6 +244,9 @@ section:after {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
+  margin-top: -7%;
+  margin-right: 10%;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .btn:after {
@@ -261,7 +264,7 @@ section:after {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #000;
+	background: #99cc00;
 }
 
 .btn-1c:hover,
