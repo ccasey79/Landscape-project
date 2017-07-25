@@ -296,6 +296,7 @@ blockquote {
   display: none;
   font-style: italic;
   font-family: 'Noto Serif', serif;
+  color: #3e5c23;
 }
 
 blockquote:first-of-type {
@@ -590,6 +591,29 @@ blockquote:first-of-type {
     font-size: 1.8rem;
     margin-left: 4%;
     margin-top: -5.5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #services {
+    font-size: 3.5rem;
+  }
+  #landscapes {
+    font-size: 3.5rem;
+  }
+  .btn {
+    margin-right: -8%;
+  }
+  #quote-end {
+    top: 225%;
+    left: 2%;
+  }
+  #covered-opacity {
+    width: 389px;
+    height: 69px;
+  }
+  #covered-txt {
+    font-size: 1.5rem;
   }
 }
 

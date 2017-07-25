@@ -288,6 +288,27 @@ textarea {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .page-headings {
+    margin-top: -16%;
+  }
+  #contact-container {
+    width: 860px;
+  }
+  #fountain-image2 {
+    margin-top: -25%;
+  }
+  #additional-heading {
+    margin-right: 10%;
+  }
+  .user-info {
+    width: 395px;
+  }
+  #questions {
+    width: 348px;
+  }
+}
+
 /* IPAD PORTRAIT */
 
 @media screen and (max-width: 768px) {
@@ -331,6 +352,10 @@ textarea {
   }
   .footer-info {
     margin-top: -3%;
+  }
+  #phone-info {
+    margin-left: 22%;
+    width: 525px;
   }
 }
 
